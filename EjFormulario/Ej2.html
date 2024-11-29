@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: blue;">FICHA DE ALUMNO</h1>
+    <fieldset style="width: 96%;">
+        <form action="Ej2_gracias.html" method="get">
+            <p style="color: red;"><b>dime tu DNI (8 digitos y una letra-da igual mayusculas que minusculas-)</b> <input type="text" pattern="[0-9]{8}[A-Za-z]" maxlength="9"   name="DNI"></p> 
+            <p style="color: blue;">Teclea fecha de nacimiento</p>
+            <label for="curso" style="color: red;"><b>Teclea año de nacimiento..:</b></label><input type="number" maxlength="4" name="año"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="mes" style="color: red;"> <b>Selecciona mes ..:</b></label>
+            <select name="mes">
+            <option value="mes1">Enero</option>
+            <option value="mes2">Febrero</option>
+            <option value="mes3">Marzo</option>
+            <option value="mes4">Abril</option>
+            <option value="mes5">Mayo</option>
+            <option value="mes6">Junio</option>
+            <option value="mes7">Julio</option>
+            <option value="mes8">Agosto</option>
+            <option value="mes9">Septiembre</option>
+            <option value="mes10">Octubre</option>
+            <option value="mes11">Noviembre</option>
+            <option value="mes12">Diciembre</option>    
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="dia" style="color: red;"><b>Teclea dia..: </b></label><input type="number" maxlength="2" name="dia"/>
+            <hr/>
+            <br/>
+            <label for="curso"style="color: red;"><b>Selecciona el curso en el que estás ..:</b></label>
+            <select name="curso">
+            <option value="c1">Priemro SMR</option>
+            <option value="c2">Segundo SMR</option>
+            <option value="c3">Priemro ASIR</option>
+            <option value="c4">Segundo ASIR</option>
+            <option value="c5">Priemro DAW</option>
+            <option value="c6">Segundo DAW</option>
+            <option value="c7">Priemro DAM</option>
+            <option value="c8">Segundo DAM</option>
+            </select>
+            <hr/>
+            <br/>
+            <label for="materias optativas" style="color: red;"><b>Elige 3 materias optativas</b></label>
+            <input type="checkbox" name="optativas" value="Inglés"><label for="optativas" style="color: blue;">Inglés</label>
+            <input type="checkbox" name="optativas" value="Frances"><label for="optativas" style="color: blue;">Francés</label>
+            <input type="checkbox" name="optativas" value="Deportes"><label for="optativas" style="color: blue;">Deportes</label>
+            <input type="checkbox" name="optativas" value="Astronomia"><label for="optativas" style="color: blue;">Astronomia</label>
+            <input type="checkbox" name="optativas" value="Historia"><label for="optativas" style="color: blue;">Historia</label>
+            <input type="checkbox" name="optativas" value="webs"><label for="optativas" style="color: blue;">Paginas web</label>
+            <input type="checkbox" name="optativas" value="Redes"><label for="optativas" style="color: blue;">Redes</label>
+            <hr/>
+            <br/>
+            <label for="turno" style="color: red;"><b>Selecciona el turno:</b></label>
+            <input type="radio" name="sexo" value="hombre" checked="checked" />Diurno
+            <input type="radio" name="sexo" value="hombre"/>Nocturno
+            <input type="radio" name="sexo" value="hombre"/>Vespertino
+            <hr/>
+            <br/>
+            <div style="text-align: center;">
+            <input type="submit" value="Enviar formulario">
+            <input type="submit" value="Limpiar datos">
+            </div>
+        </form>
+    </fieldset>
+    <p><b>HAZ CLIK <a href="../index.html">AQUI</a> PARA VOLVER AL MENU</b></p>
+</body>
+</html>
